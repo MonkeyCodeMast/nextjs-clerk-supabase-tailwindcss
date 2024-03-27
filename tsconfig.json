@@ -29,6 +29,7 @@
       "@/styles/*": ["src/styles/*"],
       "@/home/*": ["src/app/home/*"],
       "@/dashboard/*": ["src/app/dashboard/*"],
+      "@/supabase/*": ["src/app/supabase/*"],
       "@/api/*": ["src/app/api/*"],
     },
   },
