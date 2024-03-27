@@ -3,7 +3,7 @@
 	"server": "install",
 	"npm": {
 		"name": "yarn",
-		"version": "1.22.22"
+		"version": "1.22.19"
 	},
 	"lang": "en",
 	"userScript": [],

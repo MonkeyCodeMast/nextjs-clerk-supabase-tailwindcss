@@ -1,4 +1,4 @@
-import { createClerkSupabaseClient } from "app/supabase/page";
+import { createClerkSupabaseClient } from "@/supabase/page";
 // import { createClient } from "utils/supabase/server";
 
 export async function createUser(data: any): Promise<any> {

@@ -23,7 +23,14 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@/components/*": ["src/app/components/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/home/*": ["src/app/home/*"],
+      "@/dashboard/*": ["src/app/dashboard/*"],
+      "@/api/*": ["src/app/api/*"],
+    },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.mjs", "jest.config.js", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
