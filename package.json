@@ -51,6 +51,7 @@
     "@t3-oss/env-nextjs": "^0.7.1",
     "@vercel/otel": "^0.3.0",
     "class-variance-authority": "^0.7.0",
+    "classnames": "^2.5.1",
     "lodash": "^4.17.21",
     "next": "^14.0.3",
     "next-compose-plugins": "^2.2.1",
