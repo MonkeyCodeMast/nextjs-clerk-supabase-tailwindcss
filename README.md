@@ -1,6 +1,6 @@
 # nextjs-clerk-supabase-tailwindcss
 ## skype: live:.cid.13ce6d6ed56cfc8
-## gmail: steadyblinder@gmail.com
+## mail: arturmatsola@outlook.com
 ## telegram: @dancingball
 
 ### Hello, This is my contact info.
