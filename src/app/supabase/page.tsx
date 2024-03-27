@@ -1,11 +1,13 @@
+// src/app/supabase/page.tsx
+
 import { auth } from "@clerk/nextjs/server";
 import { CookieOptions, createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
- 
+
 export async function createClerkSupabaseClient() {
   const cookieStore = cookies();
   const { getToken } = auth();
- 
+
   const token = await getToken({ template: "supabase" });
   const authToken = token ? { Authorization: `Bearer ${token}` } : null;
     console.log(token)
@@ -36,16 +38,16 @@ export async function createClerkSupabaseClient() {
     }
   );
 }
- 
+
 export default async function Supabase() {
   const client = await createClerkSupabaseClient();
- 
+
   const { data, error } = await client.from("users").select();
     console.log(data, error)
   if (error) {
     return <p>Error: {JSON.stringify(error, null, 2)}</p>;
   }
- 
+
   return (
     <div>
       <h2>users</h2>
